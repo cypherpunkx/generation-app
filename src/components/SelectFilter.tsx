@@ -27,7 +27,7 @@ function SelectFilter({
   };
   const handleChangeMedali = (value: string) => {
     console.log(`selected ${value}`);
-    setJenisKelamin(value);
+    setMedali(value);
   };
   const handleChangeTahun = (value: string) => {
     console.log(`selected ${value}`);
@@ -85,7 +85,7 @@ function SelectFilter({
         style={{ width: 120 }}
         allowClear
         options={[
-          { value: 'emas', label: 'emas' },
+          { value: 'emas', label: 'Emas' },
           { value: 'perak', label: 'Perak' },
           { value: 'perunggu', label: 'Perunggu' },
         ]}

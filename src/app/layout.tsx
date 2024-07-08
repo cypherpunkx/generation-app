@@ -34,7 +34,7 @@ export default function RootLayout({
               </Link>
             </header>
             <Navbar />
-            <main>{children}</main>
+            <main className="px-16">{children}</main>
           </div>
         </AntdRegistry>
       </body>
