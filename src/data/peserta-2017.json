@@ -1,0 +1,242 @@
+[
+    {
+        "no": 1,
+        "nama": "Naufal Dean Anugrah",
+        "sekolah": "SMAN 1 Yogyakarta",
+        "provinsi": "D. I. Yogyakarta",
+        "peringkat": 1,
+        "tahun": 2017
+    },
+    {
+        "no": 2,
+        "nama": "Wilsen Widal Kho",
+        "sekolah": "SMA Darma Yudha Pekanbaru",
+        "provinsi": "Riau",
+        "peringkat": 2,
+        "tahun": 2017
+    },
+    {
+        "no": 3,
+        "nama": "Fitra Hartanto",
+        "sekolah": "SMAN Plus Provinsi Riau",
+        "provinsi": "Riau",
+        "peringkat": 3,
+        "tahun": 2017
+    },
+    {
+        "no": 4,
+        "nama": "Adella Josephin",
+        "sekolah": "SMAN 1 Depok",
+        "provinsi": "Jawa Barat",
+        "peringkat": 4,
+        "tahun": 2017
+    },
+    {
+        "no": 5,
+        "nama": "Leony Kusnarto",
+        "sekolah": "SMAK 4 BPK Penabur Jakarta",
+        "provinsi": "D. K. I. Jakarta",
+        "peringkat": 5,
+        "tahun": 2017
+    },
+    {
+        "no": 6,
+        "nama": "Lukman Fadlansyah Ramadhan",
+        "sekolah": "SMAN 1 Surakarta",
+        "provinsi": "Jawa Tengah",
+        "peringkat": 6,
+        "tahun": 2017
+    },
+    {
+        "no": 7,
+        "nama": "Abraham Karel",
+        "sekolah": "SMAN 8 Jakarta",
+        "provinsi": "D. K. I. Jakarta",
+        "peringkat": 7,
+        "tahun": 2017
+    },
+    {
+        "no": 8,
+        "nama": "Muhammad Alif Ikhsan",
+        "sekolah": "SMA Pribadi Bilingual Boarding School Bandung",
+        "provinsi": "Jawa Barat",
+        "peringkat": 8,
+        "tahun": 2017
+    },
+    {
+        "no": 9,
+        "nama": "Hanvey Xavero",
+        "sekolah": "SMAK IPEKA Sunter 2 Jakarta",
+        "provinsi": "D. K. I. Jakarta",
+        "peringkat": 9,
+        "tahun": 2017
+    },
+    {
+        "no": 10,
+        "nama": "Nur Adilah",
+        "sekolah": "SMAN 1 Metro",
+        "provinsi": "Lampung",
+        "peringkat": 10,
+        "tahun": 2017
+    },
+    {
+        "no": 11,
+        "nama": "Salmanita Sarasdewi Kamila",
+        "sekolah": "SMAN 28 Jakarta",
+        "provinsi": "D. K. I. Jakarta",
+        "peringkat": 11,
+        "tahun": 2017
+    },
+    {
+        "no": 12,
+        "nama": "Geoffrey Tyndall",
+        "sekolah": "SMAN 2 Jakarta",
+        "provinsi": "D. K. I. Jakarta",
+        "peringkat": 12,
+        "tahun": 2017
+    },
+    {
+        "no": 13,
+        "nama": "Muhammad Afi Naufal",
+        "sekolah": "SMA Kharisma Bangsa",
+        "provinsi": "Banten",
+        "peringkat": 13,
+        "tahun": 2017
+    },
+    {
+        "no": 14,
+        "nama": "Bagus Primohadi Syahputra",
+        "sekolah": "SMAN Binaan Khusus Dumai",
+        "provinsi": "Riau",
+        "peringkat": 14,
+        "tahun": 2017
+    },
+    {
+        "no": 15,
+        "nama": "Candra Arief Mahardika",
+        "sekolah": "SMAN 1 Bumiayu",
+        "provinsi": "Jawa Tengah",
+        "peringkat": 15,
+        "tahun": 2017
+    },
+    {
+        "no": 16,
+        "nama": "Ghifari Arifin",
+        "sekolah": "SMAN 1 Yogyakarta",
+        "provinsi": "D. I. Yogyakarta",
+        "peringkat": 16,
+        "tahun": 2017
+    },
+    {
+        "no": 17,
+        "nama": "Lintang Ambar Pramesti",
+        "sekolah": "SMA Kesatuan Bangsa Yogyakarta",
+        "provinsi": "D. I. Yogyakarta",
+        "peringkat": 17,
+        "tahun": 2017
+    },
+    {
+        "no": 18,
+        "nama": "Lina Kusumawati",
+        "sekolah": "SMAN 1 Boyolali",
+        "provinsi": "Jawa Tengah",
+        "peringkat": 18,
+        "tahun": 2017
+    },
+    {
+        "no": 19,
+        "nama": "M. Hafizh Ghifari Azizi",
+        "sekolah": "SMA Al Kautsar Bandar Lampung",
+        "provinsi": "Lampung",
+        "peringkat": 19,
+        "tahun": 2017
+    },
+    {
+        "no": 20,
+        "nama": "Rahmat Agung Purnama",
+        "sekolah": "SMAN 1 Bukittinggi",
+        "provinsi": "Sumatera Barat",
+        "peringkat": 20,
+        "tahun": 2017
+    },
+    {
+        "no": 21,
+        "nama": "Alzana Armaniar Farhani",
+        "sekolah": "SMA Semesta BBS Semarang",
+        "provinsi": "Jawa Tengah",
+        "peringkat": 21,
+        "tahun": 2017
+    },
+    {
+        "no": 22,
+        "nama": "Baihaqi A. Khatim",
+        "sekolah": "MAN 3 Malang",
+        "provinsi": "Jawa Timur",
+        "peringkat": 22,
+        "tahun": 2017
+    },
+    {
+        "no": 23,
+        "nama": "Nazula Qurrata A'yunin",
+        "sekolah": "MAN 3 Malang",
+        "provinsi": "Jawa Timur",
+        "peringkat": 23,
+        "tahun": 2017
+    },
+    {
+        "no": 24,
+        "nama": "Muhammad Hanif Rahmani",
+        "sekolah": "SMAN 1 Batang",
+        "provinsi": "Jawa Tengah",
+        "peringkat": 24,
+        "tahun": 2017
+    },
+    {
+        "no": 25,
+        "nama": "Wahyu Agnata Surya",
+        "sekolah": "SMAN 1 Padang Panjang",
+        "provinsi": "Sumatera Barat",
+        "peringkat": 25,
+        "tahun": 2017
+    },
+    {
+        "no": 26,
+        "nama": "Faris Rafi Permana",
+        "sekolah": "SMA Kusuma Bangsa Palembang",
+        "provinsi": "Sumatera Selatan",
+        "peringkat": 26,
+        "tahun": 2017
+    },
+    {
+        "no": 27,
+        "nama": "Adelia Kurniadi",
+        "sekolah": "SMAN 2 Payakumbuh",
+        "provinsi": "Sumatera Barat",
+        "peringkat": 27,
+        "tahun": 2017
+    },
+    {
+        "no": 28,
+        "nama": "Handi Halim",
+        "sekolah": "SMA Kristen Immanuel Pontianak",
+        "provinsi": "Kalimantan Barat",
+        "peringkat": 28,
+        "tahun": 2017
+    },
+    {
+        "no": 29,
+        "nama": "Siti Nur Hamidah",
+        "sekolah": "SMAN 2 Bantul",
+        "provinsi": "D. I. Yogyakarta",
+        "peringkat": 29,
+        "tahun": 2017
+    },
+    {
+        "no": 30,
+        "nama": "Alaik Alfain Muzaki",
+        "sekolah": "SMA Pesantren Unggul Al Bayan",
+        "provinsi": "Jawa Barat",
+        "peringkat": 30,
+        "tahun": 2017
+    }
+]

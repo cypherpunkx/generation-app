@@ -1,0 +1,302 @@
+[
+    {
+        "no": 1,
+        "nama": "Aditya Hirawan",
+        "jenisKelamin": "L",
+        "kelas": "XI",
+        "sekolah": "SMAN 1 Yogyakarta",
+        "asalDaerah": "Kota Yogyakarta",
+        "provinsi": "D. I. Yogyakarta",
+        "tahun": 2012
+    },
+    {
+        "no": 2,
+        "nama": "M. Ridwan Dzikrurrokhim",
+        "jenisKelamin": "L",
+        "kelas": "XI",
+        "sekolah": "SMAN Sragen BBS",
+        "asalDaerah": "Kab. Sragen",
+        "provinsi": "Jawa Tengah",
+        "tahun": 2012
+    },
+    {
+        "no": 3,
+        "nama": "Adnan Hendrawan",
+        "jenisKelamin": "L",
+        "kelas": "XII",
+        "sekolah": "SMAN 1 Yogyakarta",
+        "asalDaerah": "Kota Yogyakarta",
+        "provinsi": "D. I. Yogyakarta",
+        "tahun": 2012
+    },
+    {
+        "no": 4,
+        "nama": "M. Hanif Affan Yusron",
+        "jenisKelamin": "L",
+        "kelas": "XII",
+        "sekolah": "SMA Semesta Semarang",
+        "asalDaerah": "Kota Semarang",
+        "provinsi": "Jawa Tengah",
+        "tahun": 2012
+    },
+    {
+        "no": 5,
+        "nama": "Vilia Yohana",
+        "jenisKelamin": "P",
+        "kelas": "XII",
+        "sekolah": "SMAN 48 Jakarta",
+        "asalDaerah": "Kota Jakarta Timur",
+        "provinsi": "D. K. I. Jakarta",
+        "tahun": 2012
+    },
+    {
+        "no": 6,
+        "nama": "Evan Sugiarto Afil",
+        "jenisKelamin": "L",
+        "kelas": "XII",
+        "sekolah": "SMAK Petra 2 Surabaya",
+        "asalDaerah": "Kota Surabaya",
+        "provinsi": "Jawa Timur",
+        "tahun": 2012
+    },
+    {
+        "no": 7,
+        "nama": "Exa Heydemans",
+        "jenisKelamin": "L",
+        "kelas": "XII",
+        "sekolah": "SMAN Sragen BBS",
+        "asalDaerah": "Kab. Sragen",
+        "provinsi": "Jawa Tengah",
+        "tahun": 2012
+    },
+    {
+        "no": 8,
+        "nama": "Oktavian Dwi Hardiyanto",
+        "jenisKelamin": "L",
+        "kelas": "XII",
+        "sekolah": "SMAN 8 Yogyakarta",
+        "asalDaerah": "Kota Yogyakarta",
+        "provinsi": "D. I. Yogyakarta",
+        "tahun": 2012
+    },
+    {
+        "no": 9,
+        "nama": "Khairani Alkatiri",
+        "jenisKelamin": "P",
+        "kelas": "XII",
+        "sekolah": "SMAN 1 Banjarnegara",
+        "asalDaerah": "Kab. Banjarnegara",
+        "provinsi": "Jawa Tengah",
+        "tahun": 2012
+    },
+    {
+        "no": 10,
+        "nama": "Seto Adi Prabowo",
+        "jenisKelamin": "L",
+        "kelas": "XII",
+        "sekolah": "SMAN 39 Jakarta",
+        "asalDaerah": "Kota Jakarta Timur",
+        "provinsi": "D. K. I. Jakarta",
+        "tahun": 2012
+    },
+    {
+        "no": 11,
+        "nama": "Eka Dhamayanti",
+        "jenisKelamin": "P",
+        "kelas": "XII",
+        "sekolah": "SMAN Mojoagung",
+        "asalDaerah": "Kab. Jombang",
+        "provinsi": "Jawa Timur",
+        "tahun": 2012
+    },
+    {
+        "no": 12,
+        "nama": "Naufi Ulumun Nafi'ah",
+        "jenisKelamin": "P",
+        "kelas": "XII",
+        "sekolah": "MAN Insan Cendekia Serpong",
+        "asalDaerah": "Kota Tangerang Selatan",
+        "provinsi": "Banten",
+        "tahun": 2012
+    },
+    {
+        "no": 13,
+        "nama": "Nurul Isnania Putri",
+        "jenisKelamin": "P",
+        "kelas": "XII",
+        "sekolah": "SMAN 1 Bogor",
+        "asalDaerah": "Kota Bogor",
+        "provinsi": "Jawa Barat",
+        "tahun": 2012
+    },
+    {
+        "no": 14,
+        "nama": "Amanda Nurshadrina",
+        "jenisKelamin": "P",
+        "kelas": "XII",
+        "sekolah": "SMAN 1 Depok",
+        "asalDaerah": "Kota Depok",
+        "provinsi": "Jawa Barat",
+        "tahun": 2012
+    },
+    {
+        "no": 15,
+        "nama": "Rizaldy Saputra",
+        "jenisKelamin": "L",
+        "kelas": "XII",
+        "sekolah": "SMAN 2 Tinggimoncong",
+        "asalDaerah": "Kab. Gowa",
+        "provinsi": "Sulawesi Selatan",
+        "tahun": 2012
+    },
+    {
+        "no": 16,
+        "nama": "Fikri Wahyudi",
+        "jenisKelamin": "L",
+        "kelas": "XII",
+        "sekolah": "SMAN 1 Kebumen",
+        "asalDaerah": "Kab. Kebumen",
+        "provinsi": "Jawa Tengah",
+        "tahun": 2012
+    },
+    {
+        "no": 17,
+        "nama": "Donny Satrio Mahartha",
+        "jenisKelamin": "L",
+        "kelas": "XII",
+        "sekolah": "SMAN 8 Jakarta",
+        "asalDaerah": "Kota Jakarta Selatan",
+        "provinsi": "D. K. I. Jakarta",
+        "tahun": 2012
+    },
+    {
+        "no": 18,
+        "nama": "Isna Pujiastuti",
+        "jenisKelamin": "P",
+        "kelas": "XII",
+        "sekolah": "SMAN 1 Kebumen",
+        "asalDaerah": "Kab. Kebumen",
+        "provinsi": "Jawa Tengah",
+        "tahun": 2012
+    },
+    {
+        "no": 19,
+        "nama": "Tamara Qonita Mahadi",
+        "jenisKelamin": "P",
+        "kelas": "XII",
+        "sekolah": "SMA Yayasan Pupuk Kaltim",
+        "asalDaerah": "Kota Bontang",
+        "provinsi": "Kalimantan Timur",
+        "tahun": 2012
+    },
+    {
+        "no": 20,
+        "nama": "Masita Jasmin",
+        "jenisKelamin": "P",
+        "kelas": "XII",
+        "sekolah": "SMAN 34 Jakarta",
+        "asalDaerah": "Kota Jakarta Selatan",
+        "provinsi": "D. K. I. Jakarta",
+        "tahun": 2012
+    },
+    {
+        "no": 21,
+        "nama": "Deltha Majid",
+        "jenisKelamin": "L",
+        "kelas": "XII",
+        "sekolah": "SMA Al Kautsar",
+        "asalDaerah": "Kota Bandar Lampung",
+        "provinsi": "Lampung",
+        "tahun": 2012
+    },
+    {
+        "no": 22,
+        "nama": "Aditya Pradana",
+        "jenisKelamin": "L",
+        "kelas": "XI",
+        "sekolah": "SMA Muhammadiyah Wonosobo",
+        "asalDaerah": "Kab. Wonosobo",
+        "provinsi": "Jawa Tengah",
+        "tahun": 2012
+    },
+    {
+        "no": 23,
+        "nama": "Cahyo Nugroho",
+        "jenisKelamin": "L",
+        "kelas": "XII",
+        "sekolah": "SMAN 1 Jember",
+        "asalDaerah": "Kab. Jember",
+        "provinsi": "Jawa Timur",
+        "tahun": 2012
+    },
+    {
+        "no": 24,
+        "nama": "Clearesta Elsura Jannah",
+        "jenisKelamin": "P",
+        "kelas": "XII",
+        "sekolah": "SMAN 3 Malang",
+        "asalDaerah": "Kota Malang",
+        "provinsi": "Jawa Timur",
+        "tahun": 2012
+    },
+    {
+        "no": 25,
+        "nama": "Rini Fahmita",
+        "jenisKelamin": "P",
+        "kelas": "XII",
+        "sekolah": "SMAN 1 Gresik",
+        "asalDaerah": "Kab. Gresik",
+        "provinsi": "Jawa Timur",
+        "tahun": 2012
+    },
+    {
+        "no": 26,
+        "nama": "Fairuz Hanifah",
+        "jenisKelamin": "P",
+        "kelas": "XII",
+        "sekolah": "SMAN 28 Jakarta",
+        "asalDaerah": "Kota Jakarta Selatan",
+        "provinsi": "D. K. I. Jakarta",
+        "tahun": 2012
+    },
+    {
+        "no": 27,
+        "nama": "Mochamad Ardiansyah Nugraha",
+        "jenisKelamin": "L",
+        "kelas": "XII",
+        "sekolah": "SMAN 1 Bogor",
+        "asalDaerah": "Kota Bogor",
+        "provinsi": "Jawa Barat",
+        "tahun": 2012
+    },
+    {
+        "no": 28,
+        "nama": "Lingga Triana",
+        "jenisKelamin": "L",
+        "kelas": "XII",
+        "sekolah": "SMAN 2 Cibinong",
+        "asalDaerah": "Kab. Bogor",
+        "provinsi": "Jawa Barat",
+        "tahun": 2012
+    },
+    {
+        "no": 29,
+        "nama": "Asahi Idamanto",
+        "jenisKelamin": "L",
+        "kelas": "XI",
+        "sekolah": "SMAN 5 Yogyakarta",
+        "asalDaerah": "Kota Yogyakarta",
+        "provinsi": "D. I. Yogyakarta",
+        "tahun": 2012
+    },
+    {
+        "no": 30,
+        "nama": "Mastuti Puspitasari",
+        "jenisKelamin": "P",
+        "kelas": "XII",
+        "sekolah": "SMA Kharisma Bangsa",
+        "asalDaerah": "Kota Tangerang Selatan",
+        "provinsi": "Banten",
+        "tahun": 2012
+    }
+]

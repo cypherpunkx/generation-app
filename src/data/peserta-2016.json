@@ -1,0 +1,242 @@
+[
+    {
+        "no": 1,
+        "nama": "Jingga Mutiara Windyarahma",
+        "sekolah": "SMAN 1 Magelang",
+        "provinsi": "Jawa Tengah",
+        "medali": "Emas",
+        "tahun": 2016
+    },
+    {
+        "no": 2,
+        "nama": "Muhammad Nashirul Haq",
+        "sekolah": "SMAN 1 Yogyakarta",
+        "provinsi": "D.I. Yogyakarta",
+        "medali": "Emas",
+        "tahun": 2016
+    },
+    {
+        "no": 3,
+        "nama": "Fransiska Fortunata Tanuwijaya",
+        "sekolah": "SMAK Petra 2 Surabaya",
+        "provinsi": "Jawa Timur",
+        "medali": "Emas",
+        "tahun": 2016
+    },
+    {
+        "no": 4,
+        "nama": "Widyawan Nur Muhammad",
+        "sekolah": "SMAN 5 Surabaya",
+        "provinsi": "Jawa Timur",
+        "medali": "Emas",
+        "tahun": 2016
+    },
+    {
+        "no": 5,
+        "nama": "Muhammad Ramazali",
+        "sekolah": "SMAN Banua Kalsel BBS",
+        "provinsi": "Kalimantan Selatan",
+        "medali": "Emas",
+        "tahun": 2016
+    },
+    {
+        "no": 6,
+        "nama": "Agni Shalha Ali",
+        "sekolah": "MAN 3 Malang",
+        "provinsi": "Jawa Timur",
+        "medali": "Perak",
+        "tahun": 2016
+    },
+    {
+        "no": 7,
+        "nama": "Dema Tata Laksana",
+        "sekolah": "SMAN 1 Wonosobo",
+        "provinsi": "Jawa Tengah",
+        "medali": "Perak",
+        "tahun": 2016
+    },
+    {
+        "no": 8,
+        "nama": "Safira Salsabillah",
+        "sekolah": "SMAN 1 Gresik",
+        "provinsi": "Jawa Timur",
+        "medali": "Perak",
+        "tahun": 2016
+    },
+    {
+        "no": 9,
+        "nama": "Geoffrey Tyndall",
+        "sekolah": "SMAN 2 Jakarta",
+        "provinsi": "D.K.I. Jakarta",
+        "medali": "Perak",
+        "tahun": 2016
+    },
+    {
+        "no": 10,
+        "nama": "Yusuf Helmy Hensyaputra",
+        "sekolah": "SMAN 3 Semarang",
+        "provinsi": "Jawa Tengah",
+        "medali": "Perak",
+        "tahun": 2016
+    },
+    {
+        "no": 11,
+        "nama": "Alse Nabilah",
+        "sekolah": "SMA Kesatuan Bangsa",
+        "provinsi": "D.I. Yogyakarta",
+        "medali": "Perak",
+        "tahun": 2016
+    },
+    {
+        "no": 12,
+        "nama": "Rifki Andika",
+        "sekolah": "SMAN 2 Depok",
+        "provinsi": "Jawa Barat",
+        "medali": "Perak",
+        "tahun": 2016
+    },
+    {
+        "no": 13,
+        "nama": "Fransiskus Litani Santoso",
+        "sekolah": "SMAK Ketapang 1 Jakarta",
+        "provinsi": "D.K.I. Jakarta",
+        "medali": "Perak",
+        "tahun": 2016
+    },
+    {
+        "no": 14,
+        "nama": "Alaik Alfain Muzaki",
+        "sekolah": "SMA PU Al Bayan",
+        "provinsi": "Jawa Barat",
+        "medali": "Perak",
+        "tahun": 2016
+    },
+    {
+        "no": 15,
+        "nama": "Suwaibatul Annisa",
+        "sekolah": "SMA Semesta Bilingual Boarding School",
+        "provinsi": "Jawa Tengah",
+        "medali": "Perak",
+        "tahun": 2016
+    },
+    {
+        "no": 16,
+        "nama": "Nicolas Sebastian Jasman",
+        "sekolah": "SMAK Petra 1 Surabaya",
+        "provinsi": "Jawa Timur",
+        "medali": "Perunggu",
+        "tahun": 2016
+    },
+    {
+        "no": 17,
+        "nama": "Fadly Muhammad Aulia",
+        "sekolah": "SMA Al Kautsar",
+        "provinsi": "Lampung",
+        "medali": "Perunggu",
+        "tahun": 2016
+    },
+    {
+        "no": 18,
+        "nama": "Marcelo",
+        "sekolah": "SMA Darma Yudha",
+        "provinsi": "Riau",
+        "medali": "Perunggu",
+        "tahun": 2016
+    },
+    {
+        "no": 19,
+        "nama": "Katrina",
+        "sekolah": "SMA Sutomo 1 Medan",
+        "provinsi": "Sumatera Utara",
+        "medali": "Perunggu",
+        "tahun": 2016
+    },
+    {
+        "no": 20,
+        "nama": "Jonathan Teopilus",
+        "sekolah": "SMAK Immanuel Pontianak",
+        "provinsi": "Kalimantan Barat",
+        "medali": "Perunggu",
+        "tahun": 2016
+    },
+    {
+        "no": 21,
+        "nama": "Fidruzal Fahlevi",
+        "sekolah": "SMAN 1 Sumatera Barat",
+        "provinsi": "Sumatera Barat",
+        "medali": "Perunggu",
+        "tahun": 2016
+    },
+    {
+        "no": 22,
+        "nama": "Naufal Dean Anugrah",
+        "sekolah": "SMAN 1 Yogyakarta",
+        "provinsi": "D.I. Yogyakarta",
+        "medali": "Perunggu",
+        "tahun": 2016
+    },
+    {
+        "no": 23,
+        "nama": "Surya Maitri Wijaya",
+        "sekolah": "SMAK 1 BPK Penabur Jakarta",
+        "provinsi": "D. K. I. Jakarta",
+        "medali": "Perunggu",
+        "tahun": 2016
+    },
+    {
+        "no": 24,
+        "nama": "Ummu Ma'rifatul Afifah",
+        "sekolah": "SMAN 1 Ponorogo",
+        "provinsi": "Jawa Timur",
+        "medali": "Perunggu",
+        "tahun": 2016
+    },
+    {
+        "no": 25,
+        "nama": "Cecilia Jatu PD.",
+        "sekolah": "SMA Taruna Nusantara",
+        "provinsi": "Jawa Tengah",
+        "medali": "Perunggu",
+        "tahun": 2016
+    },
+    {
+        "no": 26,
+        "nama": "Oksa Nodyayu Satiti",
+        "sekolah": "SMAN 2 Kediri",
+        "provinsi": "Jawa Timur",
+        "medali": "Perunggu",
+        "tahun": 2016
+    },
+    {
+        "no": 27,
+        "nama": "Muhammad Syamsul Ashfia",
+        "sekolah": "MAN Insan Cendekia Jambi",
+        "provinsi": "Jambi",
+        "medali": "Perunggu",
+        "tahun": 2016
+    },
+    {
+        "no": 28,
+        "nama": "Azrie Ezziat Putera Muhammad",
+        "sekolah": "MAN Insan Cendekia Gorontalo",
+        "provinsi": "Gorontalo",
+        "medali": "Perunggu",
+        "tahun": 2016
+    },
+    {
+        "no": 29,
+        "nama": "Ana Nurul Hidayati",
+        "sekolah": "MAN Insan Cendekia Gorontalo",
+        "provinsi": "Gorontalo",
+        "medali": "Perunggu",
+        "tahun": 2016
+    },
+    {
+        "no": 30,
+        "nama": "Muhammad Alfin Waskito Nugroho",
+        "sekolah": "SMA Kharisma Bangsa",
+        "provinsi": "Banten",
+        "medali": "Perunggu",
+        "tahun": 2016
+    }
+]

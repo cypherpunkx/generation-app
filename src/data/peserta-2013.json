@@ -1,0 +1,312 @@
+[
+    {
+        "no": 1,
+        "nama": "Cokro Wibowo Suratno",
+        "jenisKelamin": "L",
+        "kelas": "XII",
+        "sekolah": "SMAN 1 Yogyakarta",
+        "asalDaerah": "Kota Yogyakarta",
+        "provinsi": "D. I. Yogyakarta",
+        "tahun": 2013
+    },
+    {
+        "no": 2,
+        "nama": "Gunawan Setiawan",
+        "jenisKelamin": "L",
+        "kelas": "XI",
+        "sekolah": "SMA Petra 2 Surabaya",
+        "asalDaerah": "Kota Surabaya",
+        "provinsi": "Jawa Timur",
+        "tahun": 2013
+    },
+    {
+        "no": 3,
+        "nama": "Khoirul Haq Nurul R.",
+        "jenisKelamin": "L",
+        "kelas": "XII",
+        "sekolah": "SMAN Sragen BBS",
+        "asalDaerah": "Kab. Sragen",
+        "provinsi": "Jawa Tengah",
+        "tahun": 2013
+    },
+    {
+        "no": 4,
+        "nama": "Suryana",
+        "jenisKelamin": "L",
+        "kelas": "XII",
+        "sekolah": "SMAN 1 Bogor",
+        "asalDaerah": "Kota Bogor",
+        "provinsi": "Jawa Barat",
+        "tahun": 2013
+    },
+    {
+        "no": 5,
+        "nama": "Basanda Etavita",
+        "jenisKelamin": "P",
+        "kelas": "XII",
+        "sekolah": "SMA Semesta Semarang",
+        "asalDaerah": "Kota Semarang",
+        "provinsi": "Jawa Tengah",
+        "tahun": 2013
+    },
+    {
+        "no": 6,
+        "nama": "Dini Nurul Fajri",
+        "jenisKelamin": "P",
+        "kelas": "XII",
+        "sekolah": "MAN Insan Cendekia Gorontalo",
+        "asalDaerah": "Kab. Bone Bolango",
+        "provinsi": "Gorontalo",
+        "tahun": 2013
+    },
+    {
+        "no": 7,
+        "nama": "Ana Widya Permatasari",
+        "jenisKelamin": "P",
+        "kelas": "XII",
+        "sekolah": "SMAN 3 Malang",
+        "asalDaerah": "Kota Malang",
+        "provinsi": "Jawa Timur",
+        "tahun": 2013
+    },
+    {
+        "no": 8,
+        "nama": "Ulfah Choerunnisa N.",
+        "jenisKelamin": "P",
+        "kelas": "XII",
+        "sekolah": "SMAN 1 Kebumen",
+        "asalDaerah": "Kab. Kebumen",
+        "provinsi": "Jawa Tengah",
+        "tahun": 2013
+    },
+    {
+        "no": 9,
+        "nama": "Listiana Alifia N.",
+        "jenisKelamin": "P",
+        "kelas": "XII",
+        "sekolah": "SMAN 1 Banjarnegara",
+        "asalDaerah": "Kab. Banjarnegara",
+        "provinsi": "Jawa Tengah",
+        "tahun": 2013
+    },
+    {
+        "no": 10,
+        "nama": "Maria Pradnya Paramita",
+        "jenisKelamin": "P",
+        "kelas": "XII",
+        "sekolah": "SMAN 3 Malang",
+        "asalDaerah": "Kota Malang",
+        "provinsi": "Jawa Timur",
+        "tahun": 2013
+    },
+    {
+        "no": 11,
+        "nama": "Sintaningsih Utami",
+        "jenisKelamin": "P",
+        "kelas": "XII",
+        "sekolah": "SMAN 8 Yogyakarta",
+        "asalDaerah": "Kota Yogyakarta",
+        "provinsi": "D. I. Yogyakarta",
+        "tahun": 2013
+    },
+    {
+        "no": 12,
+        "nama": "Hana Camelia",
+        "jenisKelamin": "P",
+        "kelas": "XII",
+        "sekolah": "SMAN 3 Bandung",
+        "asalDaerah": "Kota Bandung",
+        "provinsi": "Jawa Barat",
+        "tahun": 2013
+    },
+    {
+        "no": 13,
+        "nama": "Noviyanti Listyaningrum",
+        "jenisKelamin": "P",
+        "kelas": "XII",
+        "sekolah": "SMAN 2 Yogyakarta",
+        "asalDaerah": "Kota Yogyakarta",
+        "provinsi": "D. I. Yogyakarta",
+        "tahun": 2013
+    },
+    {
+        "no": 14,
+        "nama": "Ahmad Ghofar Mulyanto",
+        "jenisKelamin": "L",
+        "kelas": "XII",
+        "sekolah": "SMAN 1 Cirebon",
+        "asalDaerah": "Kota Cirebon",
+        "provinsi": "Jawa Barat",
+        "tahun": 2013
+    },
+    {
+        "no": 15,
+        "nama": "Cendi Diar Permata Dana",
+        "jenisKelamin": "L",
+        "kelas": "XII",
+        "sekolah": "SMAN 1 Mojoagung",
+        "asalDaerah": "Kab. Jombang",
+        "provinsi": "Jawa Timur",
+        "tahun": 2013
+    },
+    {
+        "no": 16,
+        "nama": "Ogy D. Aulia",
+        "jenisKelamin": "L",
+        "kelas": "XII",
+        "sekolah": "SMAN 10 Padang",
+        "asalDaerah": "Kota Padang",
+        "provinsi": "Sumatera Barat",
+        "tahun": 2013
+    },
+    {
+        "no": 17,
+        "nama": "Fandy Rachmad D.",
+        "jenisKelamin": "L",
+        "kelas": "XI",
+        "sekolah": "SMAN 1 Yogyakarta",
+        "asalDaerah": "Kota Yogyakarta",
+        "provinsi": "D. I. Yogyakarta",
+        "tahun": 2013
+    },
+    {
+        "no": 18,
+        "nama": "Derry Andriawan",
+        "jenisKelamin": "L",
+        "kelas": "XII",
+        "sekolah": "SMA Taruna Nusantara",
+        "asalDaerah": "Kab. Magelang",
+        "provinsi": "Jawa Tengah",
+        "tahun": 2013
+    },
+    {
+        "no": 19,
+        "nama": "Anisa Novianti",
+        "jenisKelamin": "P",
+        "kelas": "XII",
+        "sekolah": "SMA Kesatuan Bangsa BBS",
+        "asalDaerah": "Kab. Bantul",
+        "provinsi": "D. I. Yogyakarta",
+        "tahun": 2013
+    },
+    {
+        "no": 20,
+        "nama": "Muhammad Hamid Al Faqihi",
+        "jenisKelamin": "L",
+        "kelas": "XII",
+        "sekolah": "MAN Insan Cendekia Serpong",
+        "asalDaerah": "Kota Tangerang Selatan",
+        "provinsi": "Banten",
+        "tahun": 2013
+    },
+    {
+        "no": 21,
+        "nama": "Paschalis Pindyka A.K.",
+        "jenisKelamin": "L",
+        "kelas": "XI",
+        "sekolah": "SMAN Sragen BBS",
+        "asalDaerah": "Kab. Sragen",
+        "provinsi": "Jawa Tengah",
+        "tahun": 2013
+    },
+    {
+        "no": 22,
+        "nama": "Guritno Safitri M.",
+        "jenisKelamin": "P",
+        "kelas": "XII",
+        "sekolah": "SMAN 1 Lawang Malang",
+        "asalDaerah": "Kab. Malang",
+        "provinsi": "Jawa Timur",
+        "tahun": 2013
+    },
+    {
+        "no": 23,
+        "nama": "Ikra Wahyu P.",
+        "jenisKelamin": "L",
+        "kelas": "XII",
+        "sekolah": "SMAN Plus Provinsi Riau",
+        "asalDaerah": "Kota Pekanbaru",
+        "provinsi": "Riau",
+        "tahun": 2013
+    },
+    {
+        "no": 24,
+        "nama": "Zahrotun Naimah",
+        "jenisKelamin": "P",
+        "kelas": "XII",
+        "sekolah": "SMAN 48 Jakarta",
+        "asalDaerah": "Kota Jakarta Timur",
+        "provinsi": "D. K. I. Jakarta",
+        "tahun": 2013
+    },
+    {
+        "no": 25,
+        "nama": "Bram Azali",
+        "jenisKelamin": "L",
+        "kelas": "XII",
+        "sekolah": "SMA Sutomo 1 Medan",
+        "asalDaerah": "Kota Medan",
+        "provinsi": "Sumatera Utara",
+        "tahun": 2013
+    },
+    {
+        "no": 26,
+        "nama": "Verdy Togi Horja",
+        "jenisKelamin": "L",
+        "kelas": "XII",
+        "sekolah": "SMAN 1 Kota Bekasi",
+        "asalDaerah": "Kota Bekasi",
+        "provinsi": "Jawa Barat",
+        "tahun": 2013
+    },
+    {
+        "no": 27,
+        "nama": "Amalina Aulia Baqin",
+        "jenisKelamin": "P",
+        "kelas": "XII",
+        "sekolah": "SMAN 1 Depok",
+        "asalDaerah": "Kota Depok",
+        "provinsi": "Jawa Barat",
+        "tahun": 2013
+    },
+    {
+        "no": 28,
+        "nama": "Ahmad Syauqi Mirza Fakhri",
+        "jenisKelamin": "L",
+        "kelas": "XI",
+        "sekolah": "MAN Insan Cendekia Serpong",
+        "asalDaerah": "Kota Tangerang Selatan",
+        "provinsi": "Banten",
+        "tahun": 2013
+    },
+    {
+        "no": 29,
+        "nama": "Sholihatul Richas",
+        "jenisKelamin": "P",
+        "kelas": "XI",
+        "sekolah": "SMAN 1 Padang Panjang",
+        "asalDaerah": "Kota Padangpanjang",
+        "provinsi": "Sumatera Barat",
+        "tahun": 2013
+    },
+    {
+        "no": 30,
+        "nama": "Ni Made Nadya Prabawanty",
+        "jenisKelamin": "P",
+        "kelas": "XII",
+        "sekolah": "SMAN Model Terpadu Madani",
+        "asalDaerah": "Kota Palu",
+        "provinsi": "Sulawesi Tengah",
+        "tahun": 2013
+    },
+    {
+        "no": 31,
+        "nama": "Aditya Hirawan",
+        "jenisKelamin": "L",
+        "kelas": "XII",
+        "sekolah": "SMAN 1 Yogyakarta",
+        "asalDaerah": "Kota Yogyakarta",
+        "provinsi": "D. I. Yogyakarta",
+        "tahun": 2013
+    }
+]
