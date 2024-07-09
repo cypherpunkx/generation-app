@@ -17,208 +17,296 @@ function useFilter(
   jenisKelamin: string,
   kelas: string,
   medali: string,
-  tahun: string
+  tahun: string,
+  asalDaerah: string,
+  provinsi: string
 ) {
   const filterData = data.filter((item) => {
-    if (query && jenisKelamin && kelas && medali && tahun) {
+    const hasQuery =
+      item.nama!.toLowerCase().includes(query.toLowerCase()) ||
+      item.sekolah!.toLowerCase().includes(query.toLowerCase());
+
+    const isJenisKelamin =
+      item.jenisKelamin?.toLowerCase() === jenisKelamin?.toLowerCase();
+
+    const isKelas =
+      item.kelas?.toString().toLowerCase() === kelas?.toLowerCase();
+
+    const isAsalDaerah =
+      item.asalDaerah?.toString().toLowerCase() === asalDaerah?.toLowerCase();
+
+    const isProvinsi =
+      item.provinsi?.toString().toLowerCase() === provinsi?.toLowerCase();
+
+    const isMedali =
+      item.medali?.toString().toLowerCase() === medali?.toLowerCase();
+
+    const isTahun =
+      item.tahun?.toString().toLowerCase() === tahun?.toLowerCase();
+
+    if (jenisKelamin && kelas && asalDaerah && provinsi && medali && tahun) {
       return (
-        (item.nama!.toLowerCase().includes(query.toLowerCase()) ||
-          item.sekolah!.toLowerCase().includes(query.toLowerCase())) &&
-        item.jenisKelamin?.toLowerCase() === jenisKelamin?.toLowerCase() &&
-        item.kelas?.toString().toLowerCase() === kelas?.toLowerCase() &&
-        item.tahun?.toString().toLowerCase() === tahun?.toLowerCase() &&
-        item.medali?.toString().toLowerCase() === medali?.toLowerCase()
+        isJenisKelamin &&
+        isKelas &&
+        isAsalDaerah &&
+        isProvinsi &&
+        isMedali &&
+        isTahun
       );
     }
 
-    if (query && jenisKelamin && medali && kelas) {
+    if (jenisKelamin && kelas && asalDaerah && provinsi && medali) {
       return (
-        (item.nama!.toLowerCase().includes(query.toLowerCase()) ||
-          item.sekolah!.toLowerCase().includes(query.toLowerCase())) &&
-        item.jenisKelamin?.toLowerCase() === jenisKelamin?.toLowerCase() &&
-        item.medali?.toString().toLowerCase() === medali?.toLowerCase() &&
-        item.kelas?.toString().toLowerCase() === kelas?.toLowerCase()
+        isJenisKelamin && isKelas && isAsalDaerah && isProvinsi && isMedali
       );
     }
 
-    if (tahun && jenisKelamin && medali && kelas) {
-      return (
-        item.jenisKelamin?.toLowerCase() === jenisKelamin?.toLowerCase() &&
-        item.medali?.toString().toLowerCase() === medali?.toLowerCase() &&
-        item.kelas?.toString().toLowerCase() === kelas?.toLowerCase() &&
-        item.tahun?.toString().toLowerCase() === tahun?.toLowerCase()
-      );
+    if (jenisKelamin && kelas && asalDaerah && provinsi && tahun) {
+      return isJenisKelamin && isKelas && isAsalDaerah && isProvinsi && isTahun;
+    }
+
+    if (jenisKelamin && kelas && asalDaerah && provinsi) {
+      return isJenisKelamin && isKelas && isAsalDaerah && isProvinsi;
+    }
+
+    if (jenisKelamin && kelas && asalDaerah && medali) {
+      return isJenisKelamin && isKelas && isAsalDaerah && isMedali;
+    }
+
+    if (jenisKelamin && kelas && asalDaerah && tahun) {
+      return isJenisKelamin && isKelas && isAsalDaerah && isTahun;
     }
 
     if (query && jenisKelamin && kelas) {
-      return (
-        (item.nama!.toLowerCase().includes(query.toLowerCase()) ||
-          item.sekolah!.toLowerCase().includes(query.toLowerCase())) &&
-        item.jenisKelamin?.toLowerCase() === jenisKelamin?.toLowerCase() &&
-        item.kelas?.toString().toLowerCase() === kelas?.toLowerCase()
-      );
+      return hasQuery && isJenisKelamin && isKelas;
     }
 
+    if (query && jenisKelamin && asalDaerah) {
+      return hasQuery && isJenisKelamin && isAsalDaerah;
+    }
+
+    if (query && jenisKelamin && provinsi) {
+      return hasQuery && isJenisKelamin && isProvinsi;
+    }
     if (query && jenisKelamin && medali) {
-      return (
-        (item.nama!.toLowerCase().includes(query.toLowerCase()) ||
-          item.sekolah!.toLowerCase().includes(query.toLowerCase())) &&
-        item.jenisKelamin?.toLowerCase() === jenisKelamin?.toLowerCase() &&
-        item.medali?.toString().toLowerCase() === medali?.toLowerCase()
-      );
+      return hasQuery && isJenisKelamin && isMedali;
     }
-
     if (query && jenisKelamin && tahun) {
-      return (
-        (item.nama!.toLowerCase().includes(query.toLowerCase()) ||
-          item.sekolah!.toLowerCase().includes(query.toLowerCase())) &&
-        item.jenisKelamin?.toLowerCase() === jenisKelamin?.toLowerCase() &&
-        item.tahun?.toString().toLowerCase() === tahun?.toLowerCase()
-      );
+      return hasQuery && isJenisKelamin && isTahun;
     }
 
-    if (query && medali && tahun) {
-      return (
-        (item.nama!.toLowerCase().includes(query.toLowerCase()) ||
-          item.sekolah!.toLowerCase().includes(query.toLowerCase())) &&
-        item.medali?.toLowerCase() === medali?.toLowerCase() &&
-        item.tahun?.toString().toLowerCase() === tahun?.toLowerCase()
-      );
+    if (query && kelas && asalDaerah) {
+      return hasQuery && isKelas && isAsalDaerah;
     }
 
-    if (kelas && medali && tahun) {
-      return (
-        item.kelas?.toString().toLowerCase() === kelas?.toLowerCase() &&
-        item.medali?.toLowerCase() === medali?.toLowerCase() &&
-        item.tahun?.toString().toLowerCase() === tahun?.toLowerCase()
-      );
+    if (query && kelas && provinsi) {
+      return hasQuery && isKelas && isProvinsi;
+    }
+
+    if (query && kelas && medali) {
+      return hasQuery && isKelas && isMedali;
+    }
+
+    if (query && kelas && tahun) {
+      return hasQuery && isKelas && isTahun;
+    }
+
+    if (query && asalDaerah && provinsi) {
+      return hasQuery && isAsalDaerah && isProvinsi;
+    }
+
+    if (query && asalDaerah && medali) {
+      return hasQuery && isAsalDaerah && isMedali;
+    }
+
+    if (query && asalDaerah && tahun) {
+      return hasQuery && isAsalDaerah && isTahun;
+    }
+
+    if (query && provinsi && medali) {
+      return hasQuery && isProvinsi && isMedali;
+    }
+
+    if (query && provinsi && tahun) {
+      return hasQuery && isProvinsi && isTahun;
+    }
+
+    if (query && provinsi && tahun) {
+      return hasQuery && isProvinsi && isTahun;
+    }
+
+    if (jenisKelamin && kelas && asalDaerah) {
+      return isJenisKelamin && isKelas && isAsalDaerah;
+    }
+
+    if (jenisKelamin && kelas && provinsi) {
+      return isJenisKelamin && isKelas && isProvinsi;
+    }
+
+    if (jenisKelamin && kelas && medali) {
+      return isJenisKelamin && isKelas && isMedali;
+    }
+
+    if (jenisKelamin && kelas && tahun) {
+      return isJenisKelamin && isKelas && isTahun;
+    }
+
+    if (jenisKelamin && asalDaerah && provinsi) {
+      return isJenisKelamin && isAsalDaerah && isProvinsi;
+    }
+
+    if (jenisKelamin && asalDaerah && medali) {
+      return isJenisKelamin && isAsalDaerah && isMedali;
+    }
+
+    if (jenisKelamin && asalDaerah && tahun) {
+      return isJenisKelamin && isAsalDaerah && isTahun;
+    }
+
+    if (jenisKelamin && provinsi && medali) {
+      return isJenisKelamin && isProvinsi && isMedali;
+    }
+
+    if (jenisKelamin && provinsi && tahun) {
+      return isJenisKelamin && isProvinsi && isTahun;
     }
 
     if (jenisKelamin && medali && tahun) {
-      return (
-        item.jenisKelamin?.toLowerCase() === jenisKelamin?.toLowerCase() &&
-        item.medali?.toLowerCase() === medali?.toLowerCase() &&
-        item.tahun?.toString().toLowerCase() === tahun?.toLowerCase()
-      );
+      return isJenisKelamin && isMedali && isTahun;
     }
 
-    if (jenisKelamin && medali && kelas) {
-      return (
-        item.jenisKelamin?.toLowerCase() === jenisKelamin?.toLowerCase() &&
-        item.medali?.toLowerCase() === medali?.toLowerCase() &&
-        item.kelas?.toString().toLowerCase() === kelas?.toLowerCase()
-      );
-    }
-    if (jenisKelamin && tahun && kelas) {
-      return (
-        item.jenisKelamin?.toLowerCase() === jenisKelamin?.toLowerCase() &&
-        item.tahun?.toString().toLowerCase() === tahun?.toLowerCase() &&
-        item.kelas?.toString().toLowerCase() === kelas?.toLowerCase()
-      );
+    if (kelas && asalDaerah && provinsi) {
+      return isKelas && isAsalDaerah && isProvinsi;
     }
 
-    if (kelas && medali && tahun) {
-      return (
-        item.kelas?.toString().toLowerCase() === kelas?.toLowerCase() &&
-        item.medali?.toLowerCase() === medali?.toLowerCase() &&
-        item.tahun?.toString().toLowerCase() === tahun?.toLowerCase()
-      );
+    if (kelas && asalDaerah && medali) {
+      return isKelas && isAsalDaerah && isMedali;
+    }
+
+    if (kelas && asalDaerah && tahun) {
+      return isKelas && isAsalDaerah && isTahun;
+    }
+
+    if (asalDaerah && provinsi && medali) {
+      return isAsalDaerah && isProvinsi && isMedali;
+    }
+
+    if (asalDaerah && provinsi && tahun) {
+      return isAsalDaerah && isProvinsi && isTahun;
+    }
+    if (provinsi && medali && tahun) {
+      return isProvinsi && medali && isTahun;
     }
 
     if (query && jenisKelamin) {
-      return (
-        (item.nama!.toLowerCase().includes(query.toLowerCase()) ||
-          item.sekolah!.toLowerCase().includes(query.toLowerCase())) &&
-        item.jenisKelamin?.toLowerCase() === jenisKelamin?.toLowerCase()
-      );
+      return hasQuery && isJenisKelamin;
     }
 
     if (query && kelas) {
-      return (
-        (item.nama!.toLowerCase().includes(query.toLowerCase()) ||
-          item.sekolah!.toLowerCase().includes(query.toLowerCase())) &&
-        item.kelas?.toString().toLowerCase() === kelas?.toLowerCase()
-      );
+      return hasQuery && isKelas;
+    }
+
+    if (query && asalDaerah) {
+      return hasQuery && isAsalDaerah;
+    }
+
+    if (query && provinsi) {
+      return hasQuery && isProvinsi;
     }
 
     if (query && medali) {
-      return (
-        (item.nama!.toLowerCase().includes(query.toLowerCase()) ||
-          item.sekolah!.toLowerCase().includes(query.toLowerCase())) &&
-        item.medali?.toString().toLowerCase() === medali?.toLowerCase()
-      );
+      return hasQuery && isMedali;
     }
 
     if (query && tahun) {
-      return (
-        (item.nama!.toLowerCase().includes(query.toLowerCase()) ||
-          item.sekolah!.toLowerCase().includes(query.toLowerCase())) &&
-        item.tahun?.toString().toLowerCase() === tahun?.toLowerCase()
-      );
-    }
-
-    if (jenisKelamin && tahun) {
-      return (
-        item.jenisKelamin?.toLowerCase() === jenisKelamin?.toLowerCase() &&
-        item.tahun?.toString().toLowerCase() === tahun?.toLowerCase()
-      );
+      return hasQuery && isTahun;
     }
 
     if (jenisKelamin && kelas) {
-      return (
-        item.jenisKelamin?.toLowerCase() === jenisKelamin?.toLowerCase() &&
-        item.kelas?.toLowerCase() === kelas.toLowerCase()
-      );
+      return isJenisKelamin && isKelas;
+    }
+
+    if (jenisKelamin && asalDaerah) {
+      return isJenisKelamin && isAsalDaerah;
+    }
+
+    if (jenisKelamin && provinsi) {
+      return isJenisKelamin && isProvinsi;
     }
 
     if (jenisKelamin && medali) {
-      return (
-        item.jenisKelamin?.toLowerCase() === jenisKelamin?.toLowerCase() &&
-        item.medali?.toLowerCase() === medali.toLowerCase()
-      );
+      return isJenisKelamin && isMedali;
+    }
+
+    if (jenisKelamin && tahun) {
+      return isJenisKelamin && isTahun;
+    }
+
+    if (kelas && asalDaerah) {
+      return isKelas && isAsalDaerah;
+    }
+
+    if (kelas && provinsi) {
+      return isKelas && isProvinsi;
     }
 
     if (kelas && medali) {
-      return (
-        item.medali?.toString().toLowerCase() === medali?.toLowerCase() &&
-        item.kelas?.toLowerCase() === kelas.toLowerCase()
-      );
+      return isKelas && isMedali;
     }
 
     if (kelas && tahun) {
-      return (
-        item.tahun?.toString().toLowerCase() === tahun?.toLowerCase() &&
-        item.kelas?.toLowerCase() === kelas.toLowerCase()
-      );
+      return isKelas && isTahun;
+    }
+
+    if (asalDaerah && provinsi) {
+      return isAsalDaerah && isProvinsi;
+    }
+
+    if (asalDaerah && medali) {
+      return isAsalDaerah && isMedali;
+    }
+
+    if (asalDaerah && tahun) {
+      return isAsalDaerah && isTahun;
+    }
+
+    if (provinsi && medali) {
+      return isProvinsi && isMedali;
+    }
+
+    if (provinsi && tahun) {
+      return isProvinsi && tahun;
     }
 
     if (medali && tahun) {
-      return (
-        item.tahun?.toString().toLowerCase() === tahun?.toLowerCase() &&
-        item.medali?.toLowerCase() === medali.toLowerCase()
-      );
+      return isMedali && isTahun;
     }
 
     if (jenisKelamin) {
-      return item.jenisKelamin?.toLowerCase() === jenisKelamin.toLowerCase();
+      return isJenisKelamin;
     }
 
     if (kelas) {
-      return item.kelas?.toLowerCase() === kelas.toLowerCase();
+      return isKelas;
     }
 
     if (medali) {
-      return item.medali?.toLowerCase() === medali.toLowerCase();
+      return isMedali;
     }
 
     if (tahun) {
-      return item.tahun?.toString().toLowerCase() === tahun.toLowerCase();
+      return isTahun;
     }
 
-    return (
-      item.nama?.toLowerCase().includes(query.toLowerCase()) ||
-      item.sekolah?.toLowerCase().includes(query.toLowerCase())
-    );
+    if (asalDaerah) {
+      return isAsalDaerah;
+    }
+
+    if (provinsi) {
+      return isProvinsi;
+    }
+
+    return hasQuery;
   });
 
   return filterData;

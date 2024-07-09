@@ -1,22 +1,29 @@
 import React from 'react';
-
 import { Select, Space } from 'antd';
+import {
+  asalDaerahOptions,
+  jenisKelaminOptions,
+  kelasOptions,
+  medaliOptions,
+  provinsiOptions,
+  tahunOptions,
+} from '@/constants';
 
 function SelectFilter({
   setKelas,
   setJenisKelamin,
   setTahun,
   setMedali,
+  setAsalDaerah,
+  setProvinsi,
 }: {
   setKelas: React.Dispatch<React.SetStateAction<string>>;
   setJenisKelamin: React.Dispatch<React.SetStateAction<string>>;
   setMedali: React.Dispatch<React.SetStateAction<string>>;
   setTahun: React.Dispatch<React.SetStateAction<string>>;
+  setAsalDaerah: React.Dispatch<React.SetStateAction<string>>;
+  setProvinsi: React.Dispatch<React.SetStateAction<string>>;
 }) {
-  const handleChange = (value: string) => {
-    console.log(`selected ${value}`);
-  };
-
   const handleChangeJenisKelamin = (value: string) => {
     console.log(`selected ${value}`);
     setJenisKelamin(value);
@@ -34,6 +41,16 @@ function SelectFilter({
     setTahun(value);
   };
 
+  const handleChangeAsalDaerah = (value: string) => {
+    console.log(`selected ${value}`);
+    setAsalDaerah(value);
+  };
+
+  const handleChangeProvinsi = (value: string) => {
+    console.log(`selected ${value}`);
+    setProvinsi(value);
+  };
+
   return (
     <Space>
       <Select
@@ -41,10 +58,7 @@ function SelectFilter({
         onChange={handleChangeJenisKelamin}
         style={{ width: 120 }}
         allowClear
-        options={[
-          { value: 'L', label: 'L' },
-          { value: 'P', label: 'P' },
-        ]}
+        options={jenisKelaminOptions}
       />
       <Select
         defaultValue="Kelas"
@@ -52,43 +66,29 @@ function SelectFilter({
         style={{ width: 120 }}
         allowClear
         // loading
-        options={[
-          { value: 'X', label: 'X' },
-          { value: 'XI', label: 'XI' },
-          { value: 'XII', label: 'XII' },
-        ]}
+        options={kelasOptions}
       />
       <Select
         defaultValue="Asal Daerah"
-        onChange={handleChange}
+        onChange={handleChangeAsalDaerah}
         style={{ width: 120 }}
         allowClear
-        disabled
         // loading
-        options={[{ value: 'lucy', label: 'Lucy' }]}
+        options={asalDaerahOptions}
       />
       <Select
         defaultValue="Provinsi"
-        onChange={handleChange}
+        onChange={handleChangeProvinsi}
         style={{ width: 120 }}
-        disabled
         allowClear
-        options={[
-          { value: 'Jawa Tengah', label: 'Jawa Tengah' },
-          { value: 'Jawa Barat', label: 'Jawa Barat' },
-          { value: 'D. I. Yogyakarta', label: 'D. I. Yogyakarta' },
-        ]}
+        options={provinsiOptions}
       />
       <Select
         defaultValue="Medali"
         onChange={handleChangeMedali}
         style={{ width: 120 }}
         allowClear
-        options={[
-          { value: 'emas', label: 'Emas' },
-          { value: 'perak', label: 'Perak' },
-          { value: 'perunggu', label: 'Perunggu' },
-        ]}
+        options={medaliOptions}
       />
       <Select
         defaultValue="Tahun"
@@ -96,14 +96,7 @@ function SelectFilter({
         style={{ width: 120 }}
         allowClear
         // disabled
-        options={[
-          { value: '2012', label: '2012' },
-          { value: '2013', label: '2013' },
-          { value: '2014', label: '2014' },
-          { value: '2015', label: '2015' },
-          { value: '2016', label: '2016' },
-          { value: '2017', label: '2017' },
-        ]}
+        options={tahunOptions}
       />
     </Space>
   );

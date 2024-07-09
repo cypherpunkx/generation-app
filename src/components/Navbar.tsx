@@ -46,7 +46,10 @@ const items: MenuItem[] = [
   },
   {
     label: (
-      <Link href="/peserta-osn" rel="noopener noreferrer">
+      <Link
+        href="/peserta-osn"
+        rel="noopener noreferrer"
+      >
         Database peserta osn Kebumian
       </Link>
     ),
@@ -56,7 +59,10 @@ const items: MenuItem[] = [
   {
     disabled: true,
     label: (
-      <Link href="/peserta-pelatnas" rel="noopener noreferrer">
+      <Link
+        href="/peserta-pelatnas"
+        rel="noopener noreferrer"
+      >
         Database peserta pelatnas
       </Link>
     ),
@@ -114,6 +120,7 @@ const Navbar: React.FC = () => {
 
   return (
     <Menu
+      className="rounded"
       onClick={onClick}
       selectedKeys={[current]}
       mode="horizontal"
