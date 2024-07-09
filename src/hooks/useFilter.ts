@@ -1,15 +1,4 @@
-interface DataType {
-  no?: number;
-  nama?: string;
-  jenisKelamin?: 'L' | 'P'; // Laki-laki atau Perempuan
-  kelas?: string;
-  sekolah?: string;
-  asalDaerah?: string;
-  provinsi?: string;
-  peringkat?: number;
-  medali?: string;
-  tahun?: number;
-}
+import { DataType } from '@/constants';
 
 function useFilter(
   data: DataType[],
