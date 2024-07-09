@@ -17,55 +17,41 @@ export interface DataType {
   tahun?: number;
 }
 
-const data: DataType[] = [
+const rawData = [
   ...dataPeserta2012,
   ...dataPeserta2013,
   ...dataPeserta2014,
   ...dataPeserta2016,
   ...dataPeserta2017,
-].map((peserta, index) => ({
+];
+
+const data: DataType[] = rawData.map((peserta, index) => ({
   ...peserta,
   key: index + 1,
   no: index + 1,
 }));
 
-const provinsiOptions = [
-  ...new Set([...data.map((item) => item.provinsi)]),
-].map((val) => ({ value: val, label: val }));
-const asalDaerahOptions = [
-  ...new Set([
-    ...data.map((item) => {
-      if (item.asalDaerah && item.asalDaerah !== '') return item.asalDaerah;
-      return 'Default';
-    }),
-  ]),
-].map((val) => ({ value: val, label: val }));
+const createOptions = (items: string[], defaultLabel = 'Default') => {
+  const uniqueItems = [...new Set(items)];
+  return uniqueItems.map((val) => ({
+    value: val || defaultLabel,
+    label: val || defaultLabel,
+  }));
+};
 
-const tahunOptions = [
-  { value: '2012', label: '2012' },
-  { value: '2013', label: '2013' },
-  { value: '2014', label: '2014' },
-  { value: '2015', label: '2015' },
-  { value: '2016', label: '2016' },
-  { value: '2017', label: '2017' },
-];
-
-const medaliOptions = [
-  { value: 'emas', label: 'Emas' },
-  { value: 'perak', label: 'Perak' },
-  { value: 'perunggu', label: 'Perunggu' },
-];
-
-const kelasOptions = [
-  { value: 'X', label: 'X' },
-  { value: 'XI', label: 'XI' },
-  { value: 'XII', label: 'XII' },
-];
-
-const jenisKelaminOptions = [
-  { value: 'L', label: 'L' },
-  { value: 'P', label: 'P' },
-];
+const provinsiOptions = createOptions(data.map((item) => item.provinsi!));
+const asalDaerahOptions = createOptions(data.map((item) => item.asalDaerah!));
+const tahunOptions = createOptions([
+  '2012',
+  '2013',
+  '2014',
+  '2015',
+  '2016',
+  '2017',
+]);
+const medaliOptions = createOptions(['emas', 'perak', 'perunggu'], '');
+const kelasOptions = createOptions(['X', 'XI', 'XII'], '');
+const jenisKelaminOptions = createOptions(['L', 'P'], '');
 
 export {
   data,
