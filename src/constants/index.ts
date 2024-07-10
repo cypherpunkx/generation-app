@@ -33,25 +33,24 @@ const data: DataType[] = rawData.map((peserta, index) => ({
 
 const createOptions = (items: string[], defaultLabel = 'Default') => {
   const uniqueItems = [...new Set(items)];
-  return uniqueItems.map((val) => ({
-    value: val || defaultLabel,
-    label: val || defaultLabel,
-  }));
+  return uniqueItems.map((val) => {
+    if (val !== '' || val != undefined || val !== null) {
+      return {
+        value: val || defaultLabel,
+        label: val || defaultLabel,
+      };
+    }
+  });
 };
 
 const provinsiOptions = createOptions(data.map((item) => item.provinsi!));
 const asalDaerahOptions = createOptions(data.map((item) => item.asalDaerah!));
-const tahunOptions = createOptions([
-  '2012',
-  '2013',
-  '2014',
-  '2015',
-  '2016',
-  '2017',
-]);
-const medaliOptions = createOptions(['emas', 'perak', 'perunggu'], '');
-const kelasOptions = createOptions(['X', 'XI', 'XII'], '');
-const jenisKelaminOptions = createOptions(['L', 'P'], '');
+const tahunOptions = createOptions(data.map((item) => item.tahun?.toString()!));
+const medaliOptions = createOptions(data.map((item) => item.medali!));
+const kelasOptions = createOptions(data.map((item) => item.kelas!));
+const jenisKelaminOptions = createOptions(
+  data.map((item) => item.jenisKelamin!)
+);
 
 export {
   data,
